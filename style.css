@@ -1,0 +1,94 @@
+body{
+    background-color: darkolivegreen;
+    color: beige;
+}
+main{
+    padding-top: 1px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    display: block;
+    margin-left: 190px;
+    overflow: auto;
+    background-color: green;
+}
+header{
+    padding-top: 30px;
+    padding-left: 3em;
+    text-align: center;
+}
+nav{
+    font-weight: bold;
+    padding: 1.5em;
+    font-size: 120%;
+    float: left;
+    width: 160px;
+    background-color: yellowgreen;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0px;
+    font-size: 1.2em;
+}
+nav li{
+    transition: background-color 2s ease-out;
+}
+nav li:hover{
+    background-color: darkgreen;
+}
+#wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background-color: darkolivegreen;
+    border: 1px solid #000033;
+    background-image: linear-gradient(to bottom, green, rgb(23, 182, 23));
+    background-repeat: no-repeat;
+    min-width: 960px;
+    max-width: 2048px;
+    box-shadow: 3px 3px 3px #333333;
+}
+dt{
+    color: orange;
+}
+footer{
+    font-size: 75%;
+    font-style: italic;
+    text-align: center;
+    font-family: Georgia, "Times new Roman", serif;
+    padding: 2em;
+    margin-left: 190px;
+}
+table{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+td{
+    padding: 0.5em;
+    border: 2px solid black;
+}
+th{
+    padding: 0.5em;
+    border: 2px solid black;
+}
+td{
+    text-align: center;
+}
+tr:nth-of-type(odd){
+    background-color: darkolivegreen;
+}
+label{
+    float: left;
+	display: block;
+	text-align: right;
+	width: 120px;
+	padding: 5px;
+}
+input{
+    display: block;
+	margin-bottom: 20px;
+}
+input[type="submit"] {
+	margin-left: 130px;
+}
